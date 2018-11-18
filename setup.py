@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='petrus',
-      version='0.2',
+      version='0.3',
       description='Online automatic phonetic transcription system for Brazilian Portuguese',
       url='https://github.com/contemmcm/PETRUS',
       author='Alessandro Bokan',
