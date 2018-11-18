@@ -7,4 +7,5 @@ setup(name='petrus',
       author='Alessandro Bokan',
       author_email='abokan@gmail.com',
       packages=['petrus', 'petrus.g2p', 'petrus.stress', 'petrus.syllables'],
+      include_package_data=True,
       zip_safe=False)
