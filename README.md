@@ -34,6 +34,13 @@ Pɛtɾʊs is dedicated to the automatic phonetic transcription of simple words f
 reference **São Paulo** state standard pronunciation.
 
 
+Installation
+===
+
+```bash
+pip install git+https://github.com/contemmcm/PETRUS.git
+```
+
 ***
 Usage
 =====

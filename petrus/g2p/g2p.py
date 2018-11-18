@@ -24,10 +24,10 @@ from __future__ import unicode_literals
 
 from utils import load_prefixes, load_homographs_heterophones
 
-from stress.tonic import StressDetector
+from petrus.stress.tonic import StressDetector
 
-from syllables.silva2011 import Silva2011SyllableSeparator
-from syllables.ceci import CECISyllableSeparator
+from petrus.syllables.silva2011 import Silva2011SyllableSeparator
+from petrus.syllables.ceci import CECISyllableSeparator
 
 import re
 import os

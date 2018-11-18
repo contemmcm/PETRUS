@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 from argparse import ArgumentParser
 
-from g2p.g2p import G2PTranscriber
+from petrus.g2p.g2p import G2PTranscriber
 
 
 if __name__ == '__main__':
