@@ -22,7 +22,7 @@
 
 from __future__ import unicode_literals
 
-from utils import load_prefixes, load_homographs_heterophones
+from petrus.g2p.utils import load_prefixes, load_homographs_heterophones
 
 from petrus.stress.tonic import StressDetector
 
@@ -59,10 +59,7 @@ class G2PTranscriber(object):
     """
     def __init__(self, word, algorithm='silva'):
         # Initialize word
-        try:
-            self.word = word.decode('utf-8').lower()
-        except (UnicodeDecodeError, UnicodeEncodeError):
-            self.word = word.lower()
+        self.word = word.lower()
 
         # Initialize stress detector
         self.stress = StressDetector(self.word)

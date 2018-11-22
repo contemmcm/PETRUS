@@ -22,7 +22,7 @@
 
 from __future__ import unicode_literals
 
-from cases import case1, case2, case3, case4, case5, case6, case7, case8, case9, case10
+from petrus.syllables.cases import case1, case2, case3, case4, case5, case6, case7, case8, case9, case10
 
 import re
 

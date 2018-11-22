@@ -36,10 +36,7 @@ class StressDetector(object):
 
     """
     def __init__(self, word):
-        try:
-            self.word = word.decode('utf-8').lower()
-        except (UnicodeDecodeError, UnicodeEncodeError):
-            self.word = word.lower()
+        self.word = word.lower()
 
     def get_stress_vowel(self):
         """

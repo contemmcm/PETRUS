@@ -26,10 +26,7 @@ from __future__ import unicode_literals
 
 class CECISyllableSeparator(object):
     def __init__(self, word):
-        try:
-            self.word = word.decode('utf-8').lower()
-        except (UnicodeDecodeError, UnicodeEncodeError):
-            self.word = word.lower()
+        self.word = word.lower()
 
     def _get(self, la, le):
         letters = self.tab_ceci[0]
